@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(102, 166, 209);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  background-color: #b136cf;
+  text-align: center;
+  line-height: 80px;
+  padding-top: 1px;
+}
+
+h2 {
+    margin-left: 120px;
+    font-size: 25px;
+}
+
+.layout::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+div img {
+    float: left;
+    margin-right:30px;
+    margin-bottom:50px;
+    border-radius: 90px;
+}
+
+div p {
+    font-size: 20px;
+    padding-top: 60px;
+}
+
+footer {
+    background-color: #ca4f4f;
+    font-size: 20px;
+    padding-top: 20px;
+  }
+
+footer a {
+      color: rgb(15, 13, 13);
+      margin-left: 500px;
+      line-height: 130px;
+}
